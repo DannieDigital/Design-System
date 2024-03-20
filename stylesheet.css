@@ -1,0 +1,381 @@
+/* Main Styling */
+html, body {
+  height: 100%; /* Set the height of the root elements */
+  /* margin: 0; /* Remove any default margins */
+  /* padding: 0; Remove any default padding */ 
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #292929;
+  position: relative;
+  min-height: 100vh;
+}
+
+.container {
+  padding-top: 10%;
+}
+
+
+h1,h2,h3,h4 {
+  font-family: "Kanit", sans-serif;
+  color:#c27ba0ff;
+}
+
+h1 {
+  font-size: 47.8px;
+  font-weight: 50;
+  color:#c27ba0ff;
+
+}
+
+h2 {
+  font-size: 39.8px;
+  color:#c27ba0ff;
+  font-weight: 100;
+}
+
+
+h3 {
+  font-size: 27.6px;
+  font-weight: 100;
+  color: gray;
+}
+
+h4 {
+  font-size: 17.6px;
+  font-weight: 100;
+}
+
+
+#logo {
+  height: 50px;
+}
+
+
+#container {
+ padding-top: 25%;
+ padding-left: 15%;
+
+}
+
+  
+.page-link{
+  color: grey;
+
+}
+
+
+.pagination {
+  --bs-pagination-hover-color: #222;
+--bs-pagination-hover-bg: #c27ba0ff;
+  --bs-pagination-active-color: #FEFEF4;
+  --bs-pagination-active-bg: #c27ba0ff;
+  --bs-pagination-active-border-color: #c27ba0ff;
+  --bs-pagination-border-color: #c27ba0ff;
+
+}
+
+.web-design{
+  width:85%;
+  
+}
+
+.tablet-design{
+  width: 60%;
+}
+
+.mobile-design{
+  width: 35%;
+}
+.designs{
+  border: 1px solid rgb(144, 144, 144);
+}
+
+/* Button Styling */
+
+.btn-primary{
+  background-color: #c27ba0ff;
+  border: 0px;
+  color: #FEFEF4;
+  padding: 6px 16px;
+  border-radius: 20px ;
+}
+.btn-primary:hover{
+  background-color: #c27ba0ff;
+}
+
+.btn-outline-secondary{
+  background-color: #FEFFFB;
+  border: 2px #c27ba0ff solid;
+  color: #c27ba0ff;
+  padding: 6px 16px;
+  border-radius: 20px ;
+}
+  
+.btn-outline-secondary:hover{
+  background-color:#bfdedb32;
+  border: 2px #c27ba0ff solid;
+  color: #c27ba0ff;
+}
+
+.btn-toggle {
+  padding: .25rem .5rem;
+  font-weight: 10;
+  color: rgba(0, 0, 0, .65);
+  background-color: transparent;
+}
+.btn-toggle:hover,
+.btn-toggle:focus {
+  color: rgba(0, 0, 0, .85);
+  background-color: #c27ba0ff ;
+}
+
+.btn-toggle::before {
+  width: 1.25em;
+  line-height: 0;
+  transition: transform .35s ease;
+  transform-origin: .5em 50%;
+}
+
+.btn-toggle[aria-expanded="true"] {
+  color: rgba(0, 0, 0, .85);
+}
+.btn-toggle[aria-expanded="true"]::before {
+  transform: rotate(90deg);
+}
+
+.btn-toggle-nav a {
+  padding: .1875rem .5rem;
+  margin-top: .125rem;
+  margin-left: 1.25rem;
+}
+.btn-toggle-nav a:hover,
+.btn-toggle-nav a:focus {
+  background-color: #c27ba0ff;
+}
+
+
+/* Code Styling */
+code {
+  color:#c27ba0ff;
+}
+
+#linkparagraph {
+  color:  #a64d79ff;
+  font-size: .875em;
+}
+
+#hoverparagraph {
+  color: #c27ba0ff;
+  font-size: .875em;
+
+}
+
+a {
+  color: #c27ba0ff;
+}
+
+/* Navbar*/
+.dropdown-toggle { outline: 0; }
+.bg{
+  background-color: #FFFFFF;
+}
+
+.navcolor{
+  background-color: #FFFFFF !important;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  padding: 0px 8px;
+}
+
+.nav-link{
+  font-size: 18px;
+  color: #c27ba0ff;
+  margin: 0px 24px !important;
+}
+
+.active-nav{
+  color: #c27ba0ff !important;
+  border: 2px solid #c27ba0ff;
+  border-radius: 32px;;
+  padding: 6px 24px !important;
+}
+
+.footer-disp{
+  background-color: #fffffe;
+  border-top: 2px solid #c27ba0ff;
+  color: rgb(10, 10, 10);
+}
+
+.cont{
+  border: 1px solid rgba(0, 0, 0, .15);
+  /* background-color:  rgb(199, 130, 166); */
+}
+
+.navbar-brand{
+  font-size: 24px;
+  color: #c27ba0ff;
+  font-style: italic;
+  }
+  .navbar{
+    padding: 0px;
+  }
+  
+  .navbar-toggler{
+    
+    border: 2px solid #c27ba0ff !important;
+  }
+  
+  
+  .navcont{
+    border: 1px solid rgba(0, 0, 0, .15);
+    background-color: rgba(207, 232, 232, 0.492);
+    
+  }
+
+
+  
+.scrollarea {
+  overflow-y: auto;
+}
+
+.example{
+  background-color: rgba(207, 232, 232, 0.492);
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 1px 1px 1px;
+}
+.example{
+  background-color: #fffffe;
+  border: solid rgba(0, 0, 0, .15);
+  border-width: 1px 1px 1px 1px;
+}
+
+
+
+.b-example-divider {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(177, 173, 173, 0.1);
+  border: solid #c27ba0ff;
+  border-width: 1px 0;
+  box-shadow: inset 0 .5em 1.5em rgba(158, 90, 138, 0.1), inset 0 .125em .5em rgba(238, 152, 212, 0.15);
+}
+
+.b-example-vr {
+  height: 200%; /* Set the height to 100% of the viewport height */
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.col.code-background{
+  background-color: #f8f5f5;
+  border: solid rgba(179, 44, 44, 0.15);
+  border-width: 1px 1px 1px 1px;
+
+}
+
+.page-link{
+  color: grey;
+
+}
+
+/* Homepage */
+
+p {
+  font-size: 20px;
+  font-weight: 0px;
+  color: gray;
+ 
+
+ }
+
+ .about{
+  color: #c27ba0ff;
+  font-weight: 700;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.hier-intro {
+  padding: 50px 0 60px 0;
+  text-align: center;
+}
+
+/* Custom CSS for tooltips */
+
+.tooltip-inner {
+  background-color: rgb(25, 26, 25) !important;
+  color: #fff ;
+}
+
+.bs-tooltip-bottom .arrow::before, 
+.bs-tooltip-auto[x-placement^="bottom"] .arrow::before {
+  border-bottom-color: #c27ba0ff !important;
+}
+
+.codesista {
+  display: block;
+  margin-left: -30%;
+  margin-right: 450%;
+  margin-top: 10%;
+  width: 150%;
+}
+
+
+/* Type Page Styling */
+
+#typeparagraph {
+  text-align: center;
+}
+
+.kanit a {
+  font-size: 1em;
+  font-weight: 550;
+  color: #a64d79ff;
+  text-decoration: underline;
+  text-decoration-thickness: .12em;
+  text-decoration-color: #a64d79ff;
+}
+
+.kanit a:hover {
+  color: #a64d79ff;
+  text-decoration: none;
+}
+
+.kanit .hover {
+  font-weight: 550;
+  color: #a64d79ff;
+  text-decoration: none;
+}
+
+
+
+/* Footer */
+footer {
+  width: 100%;
+  padding: 1.5rem 0 3rem 0;
+  height: 5rem;
+  bottom: 0;
+  height: 3.6rem;
+  text-align: center;
+}
+
+.footer-link {
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.text-reset {
+  --bs-text-opacity: 1;
+  color: #a64d79ff !important;
+}
+
+
+.footer-link:hover {
+  text-decoration: underline;
+}
+
+
